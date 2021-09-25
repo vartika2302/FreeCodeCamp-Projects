@@ -1,0 +1,40 @@
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  body {
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    grid-column-gap: 1em;
+    font-size: 0.9rem;
+    font-weight: normal;
+  }
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 1rem;
+  }
+  .nav-link {
+    color: #444444;
+    text-decoration: none;
+    margin-top: 1rem;
+  }
+  #main-doc {
+    margin-left: 1%;
+  }
+  article {
+    color: dark-grey;
+  }
+  code {
+    background-color: #eeeeee;
+    padding: 0.3rem;
+    font-size: 0.8rem;
+    border-radius: 0.3rem;
+  }
+  
+  @media (max-width: 556px) {
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+  }
